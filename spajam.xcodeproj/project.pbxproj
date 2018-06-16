@@ -1,0 +1,728 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2673640C042D315ABF018384 /* Pods_spajam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D17573EF6B6B4FC7702B3378 /* Pods_spajam.framework */; };
+		698AAE503A50390E463E164A /* libPods-spajamUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD79F56023DBE35B4C9A29B /* libPods-spajamUITests.a */; };
+		BF3ED693CB52942BCC6DCCCA /* libPods-spajamTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A4DBE7D7256F2F9F1899B2 /* libPods-spajamTests.a */; };
+		F27776B120D4D79D0097147D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27776B020D4D79D0097147D /* AppDelegate.swift */; };
+		F27776B320D4D79D0097147D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27776B220D4D79D0097147D /* ViewController.swift */; };
+		F27776B620D4D79D0097147D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27776B420D4D79D0097147D /* Main.storyboard */; };
+		F27776B820D4D79F0097147D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27776B720D4D79F0097147D /* Assets.xcassets */; };
+		F27776BB20D4D79F0097147D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27776B920D4D79F0097147D /* LaunchScreen.storyboard */; };
+		F27776C620D4D79F0097147D /* spajamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27776C520D4D79F0097147D /* spajamTests.swift */; };
+		F27776D120D4D79F0097147D /* spajamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27776D020D4D79F0097147D /* spajamUITests.swift */; };
+		F27776DF20D4D9AC0097147D /* PeerKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27776DE20D4D9AC0097147D /* PeerKit.framework */; };
+		F27776E320D4DBC50097147D /* ConnectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27776E220D4DBC50097147D /* ConnectionManager.swift */; };
+		F27776F620D4E8CC0097147D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F27776F520D4E8CC0097147D /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F27776C220D4D79F0097147D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F27776A520D4D79D0097147D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27776AC20D4D79D0097147D;
+			remoteInfo = spajam;
+		};
+		F27776CD20D4D79F0097147D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F27776A520D4D79D0097147D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F27776AC20D4D79D0097147D;
+			remoteInfo = spajam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DA085779ADE1339023AB96A /* Pods-spajamTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spajamTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-spajamTests/Pods-spajamTests.release.xcconfig"; sourceTree = "<group>"; };
+		127811CF6A82477CB389E96E /* Pods-spajamUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spajamUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spajamUITests/Pods-spajamUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		12DF4962EA2366207363F64E /* Pods-spajamTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spajamTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spajamTests/Pods-spajamTests.debug.xcconfig"; sourceTree = "<group>"; };
+		79A4DBE7D7256F2F9F1899B2 /* libPods-spajamTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-spajamTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BD79F56023DBE35B4C9A29B /* libPods-spajamUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-spajamUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88E61945391ED7937AE76845 /* Pods-spajam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spajam.release.xcconfig"; path = "Pods/Target Support Files/Pods-spajam/Pods-spajam.release.xcconfig"; sourceTree = "<group>"; };
+		D17573EF6B6B4FC7702B3378 /* Pods_spajam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_spajam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3CF83A6D091050D5600AFEE /* Pods-spajam.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spajam.debug.xcconfig"; path = "Pods/Target Support Files/Pods-spajam/Pods-spajam.debug.xcconfig"; sourceTree = "<group>"; };
+		E5D69E79619C200AC2EF3FB2 /* Pods-spajamUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-spajamUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-spajamUITests/Pods-spajamUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F27776AD20D4D79D0097147D /* spajam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spajam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27776B020D4D79D0097147D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F27776B220D4D79D0097147D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F27776B520D4D79D0097147D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F27776B720D4D79F0097147D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F27776BA20D4D79F0097147D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F27776BC20D4D79F0097147D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27776C120D4D79F0097147D /* spajamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spajamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27776C520D4D79F0097147D /* spajamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spajamTests.swift; sourceTree = "<group>"; };
+		F27776C720D4D79F0097147D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27776CC20D4D79F0097147D /* spajamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spajamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27776D020D4D79F0097147D /* spajamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spajamUITests.swift; sourceTree = "<group>"; };
+		F27776D220D4D79F0097147D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27776DE20D4D9AC0097147D /* PeerKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PeerKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F27776E220D4DBC50097147D /* ConnectionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectionManager.swift; sourceTree = "<group>"; };
+		F27776F520D4E8CC0097147D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F27776AA20D4D79D0097147D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27776F620D4E8CC0097147D /* Foundation.framework in Frameworks */,
+				F27776DF20D4D9AC0097147D /* PeerKit.framework in Frameworks */,
+				2673640C042D315ABF018384 /* Pods_spajam.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27776BE20D4D79F0097147D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF3ED693CB52942BCC6DCCCA /* libPods-spajamTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27776C920D4D79F0097147D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				698AAE503A50390E463E164A /* libPods-spajamUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09774C628E880C6E8E293537 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F27776F520D4E8CC0097147D /* Foundation.framework */,
+				F27776DE20D4D9AC0097147D /* PeerKit.framework */,
+				D17573EF6B6B4FC7702B3378 /* Pods_spajam.framework */,
+				79A4DBE7D7256F2F9F1899B2 /* libPods-spajamTests.a */,
+				7BD79F56023DBE35B4C9A29B /* libPods-spajamUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		818FDC0F3BC39AED410D0A18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3CF83A6D091050D5600AFEE /* Pods-spajam.debug.xcconfig */,
+				88E61945391ED7937AE76845 /* Pods-spajam.release.xcconfig */,
+				12DF4962EA2366207363F64E /* Pods-spajamTests.debug.xcconfig */,
+				0DA085779ADE1339023AB96A /* Pods-spajamTests.release.xcconfig */,
+				127811CF6A82477CB389E96E /* Pods-spajamUITests.debug.xcconfig */,
+				E5D69E79619C200AC2EF3FB2 /* Pods-spajamUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F27776A420D4D79D0097147D = {
+			isa = PBXGroup;
+			children = (
+				F27776AF20D4D79D0097147D /* spajam */,
+				F27776C420D4D79F0097147D /* spajamTests */,
+				F27776CF20D4D79F0097147D /* spajamUITests */,
+				F27776AE20D4D79D0097147D /* Products */,
+				818FDC0F3BC39AED410D0A18 /* Pods */,
+				09774C628E880C6E8E293537 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F27776AE20D4D79D0097147D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F27776AD20D4D79D0097147D /* spajam.app */,
+				F27776C120D4D79F0097147D /* spajamTests.xctest */,
+				F27776CC20D4D79F0097147D /* spajamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F27776AF20D4D79D0097147D /* spajam */ = {
+			isa = PBXGroup;
+			children = (
+				F27776E220D4DBC50097147D /* ConnectionManager.swift */,
+				F27776B020D4D79D0097147D /* AppDelegate.swift */,
+				F27776B220D4D79D0097147D /* ViewController.swift */,
+				F27776B420D4D79D0097147D /* Main.storyboard */,
+				F27776B720D4D79F0097147D /* Assets.xcassets */,
+				F27776B920D4D79F0097147D /* LaunchScreen.storyboard */,
+				F27776BC20D4D79F0097147D /* Info.plist */,
+			);
+			path = spajam;
+			sourceTree = "<group>";
+		};
+		F27776C420D4D79F0097147D /* spajamTests */ = {
+			isa = PBXGroup;
+			children = (
+				F27776C520D4D79F0097147D /* spajamTests.swift */,
+				F27776C720D4D79F0097147D /* Info.plist */,
+			);
+			path = spajamTests;
+			sourceTree = "<group>";
+		};
+		F27776CF20D4D79F0097147D /* spajamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F27776D020D4D79F0097147D /* spajamUITests.swift */,
+				F27776D220D4D79F0097147D /* Info.plist */,
+			);
+			path = spajamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F27776AC20D4D79D0097147D /* spajam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27776D520D4D79F0097147D /* Build configuration list for PBXNativeTarget "spajam" */;
+			buildPhases = (
+				E4CB030C39A0FF701DA2B3C8 /* [CP] Check Pods Manifest.lock */,
+				F27776A920D4D79D0097147D /* Sources */,
+				F27776AA20D4D79D0097147D /* Frameworks */,
+				F27776AB20D4D79D0097147D /* Resources */,
+				292AC6FC2BF3118B0ACA7DB4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spajam;
+			productName = spajam;
+			productReference = F27776AD20D4D79D0097147D /* spajam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F27776C020D4D79F0097147D /* spajamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27776D820D4D79F0097147D /* Build configuration list for PBXNativeTarget "spajamTests" */;
+			buildPhases = (
+				FCC1849C65DFB3F8F3EFB956 /* [CP] Check Pods Manifest.lock */,
+				F27776BD20D4D79F0097147D /* Sources */,
+				F27776BE20D4D79F0097147D /* Frameworks */,
+				F27776BF20D4D79F0097147D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F27776C320D4D79F0097147D /* PBXTargetDependency */,
+			);
+			name = spajamTests;
+			productName = spajamTests;
+			productReference = F27776C120D4D79F0097147D /* spajamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F27776CB20D4D79F0097147D /* spajamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F27776DB20D4D79F0097147D /* Build configuration list for PBXNativeTarget "spajamUITests" */;
+			buildPhases = (
+				CD3E2AACEB78A3B46B7C6FCE /* [CP] Check Pods Manifest.lock */,
+				F27776C820D4D79F0097147D /* Sources */,
+				F27776C920D4D79F0097147D /* Frameworks */,
+				F27776CA20D4D79F0097147D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F27776CE20D4D79F0097147D /* PBXTargetDependency */,
+			);
+			name = spajamUITests;
+			productName = spajamUITests;
+			productReference = F27776CC20D4D79F0097147D /* spajamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F27776A520D4D79D0097147D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Oshima Haruna";
+				TargetAttributes = {
+					F27776AC20D4D79D0097147D = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					F27776C020D4D79F0097147D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F27776AC20D4D79D0097147D;
+					};
+					F27776CB20D4D79F0097147D = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = F27776AC20D4D79D0097147D;
+					};
+				};
+			};
+			buildConfigurationList = F27776A820D4D79D0097147D /* Build configuration list for PBXProject "spajam" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F27776A420D4D79D0097147D;
+			productRefGroup = F27776AE20D4D79D0097147D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F27776AC20D4D79D0097147D /* spajam */,
+				F27776C020D4D79F0097147D /* spajamTests */,
+				F27776CB20D4D79F0097147D /* spajamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F27776AB20D4D79D0097147D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27776BB20D4D79F0097147D /* LaunchScreen.storyboard in Resources */,
+				F27776B820D4D79F0097147D /* Assets.xcassets in Resources */,
+				F27776B620D4D79D0097147D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27776BF20D4D79F0097147D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27776CA20D4D79F0097147D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		292AC6FC2BF3118B0ACA7DB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-spajam/Pods-spajam-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/PeerKit/PeerKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PeerKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-spajam/Pods-spajam-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD3E2AACEB78A3B46B7C6FCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-spajamUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4CB030C39A0FF701DA2B3C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-spajam-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC1849C65DFB3F8F3EFB956 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-spajamTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F27776A920D4D79D0097147D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27776B320D4D79D0097147D /* ViewController.swift in Sources */,
+				F27776E320D4DBC50097147D /* ConnectionManager.swift in Sources */,
+				F27776B120D4D79D0097147D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27776BD20D4D79F0097147D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27776C620D4D79F0097147D /* spajamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F27776C820D4D79F0097147D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F27776D120D4D79F0097147D /* spajamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F27776C320D4D79F0097147D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F27776AC20D4D79D0097147D /* spajam */;
+			targetProxy = F27776C220D4D79F0097147D /* PBXContainerItemProxy */;
+		};
+		F27776CE20D4D79F0097147D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F27776AC20D4D79D0097147D /* spajam */;
+			targetProxy = F27776CD20D4D79F0097147D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F27776B420D4D79D0097147D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F27776B520D4D79D0097147D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F27776B920D4D79F0097147D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F27776BA20D4D79F0097147D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F27776D320D4D79F0097147D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F27776D420D4D79F0097147D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F27776D620D4D79F0097147D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3CF83A6D091050D5600AFEE /* Pods-spajam.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				INFOPLIST_FILE = spajam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.spajam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F27776D720D4D79F0097147D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88E61945391ED7937AE76845 /* Pods-spajam.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				INFOPLIST_FILE = spajam/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.spajam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F27776D920D4D79F0097147D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12DF4962EA2366207363F64E /* Pods-spajamTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				INFOPLIST_FILE = spajamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.spajamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spajam.app/spajam";
+			};
+			name = Debug;
+		};
+		F27776DA20D4D79F0097147D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA085779ADE1339023AB96A /* Pods-spajamTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				INFOPLIST_FILE = spajamTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.spajamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/spajam.app/spajam";
+			};
+			name = Release;
+		};
+		F27776DC20D4D79F0097147D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127811CF6A82477CB389E96E /* Pods-spajamUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				INFOPLIST_FILE = spajamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.spajamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spajam;
+			};
+			name = Debug;
+		};
+		F27776DD20D4D79F0097147D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5D69E79619C200AC2EF3FB2 /* Pods-spajamUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U4VPAQ9666;
+				INFOPLIST_FILE = spajamUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haruna.spajamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = spajam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F27776A820D4D79D0097147D /* Build configuration list for PBXProject "spajam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27776D320D4D79F0097147D /* Debug */,
+				F27776D420D4D79F0097147D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27776D520D4D79F0097147D /* Build configuration list for PBXNativeTarget "spajam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27776D620D4D79F0097147D /* Debug */,
+				F27776D720D4D79F0097147D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27776D820D4D79F0097147D /* Build configuration list for PBXNativeTarget "spajamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27776D920D4D79F0097147D /* Debug */,
+				F27776DA20D4D79F0097147D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F27776DB20D4D79F0097147D /* Build configuration list for PBXNativeTarget "spajamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F27776DC20D4D79F0097147D /* Debug */,
+				F27776DD20D4D79F0097147D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F27776A520D4D79D0097147D /* Project object */;
+}

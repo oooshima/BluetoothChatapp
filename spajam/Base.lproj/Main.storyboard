@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="spajam" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fFc-CX-u0Z">
+                                <rect key="frame" x="16" y="20" width="252" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="252" id="Kwe-lJ-90Z"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTC-pO-Z5K">
+                                <rect key="frame" x="291" y="20" width="46" height="30"/>
+                                <state key="normal" title="Send"/>
+                                <connections>
+                                    <action selector="didTapSendButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cj7-cJ-5j2"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="hOK-2O-a8P">
+                                <rect key="frame" x="22" y="69" width="337" height="578"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="hOK-2O-a8P" secondAttribute="bottom" constant="20" id="J23-l5-6K5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uTC-pO-Z5K" secondAttribute="trailing" constant="38" id="REr-He-jy2"/>
+                            <constraint firstItem="fFc-CX-u0Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="VtD-4K-6y6"/>
+                            <constraint firstItem="uTC-pO-Z5K" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bOV-KC-gJr"/>
+                            <constraint firstItem="hOK-2O-a8P" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="22" id="hoN-6V-hgZ"/>
+                            <constraint firstItem="uTC-pO-Z5K" firstAttribute="leading" secondItem="fFc-CX-u0Z" secondAttribute="trailing" constant="23" id="m7O-0d-xje"/>
+                            <constraint firstItem="fFc-CX-u0Z" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="pYE-MK-WzK"/>
+                            <constraint firstItem="hOK-2O-a8P" firstAttribute="top" secondItem="fFc-CX-u0Z" secondAttribute="bottom" constant="19" id="qhr-ei-iCB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hOK-2O-a8P" secondAttribute="trailing" constant="16" id="vIR-qD-O9D"/>
+                            <constraint firstItem="hOK-2O-a8P" firstAttribute="top" secondItem="uTC-pO-Z5K" secondAttribute="bottom" constant="19" id="xVG-hp-Equ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="inputTextField" destination="fFc-CX-u0Z" id="XQD-eV-p9h"/>
+                        <outlet property="logTextView" destination="hOK-2O-a8P" id="nR4-DM-Zdv"/>
+                        <outlet property="sendButton" destination="uTC-pO-Z5K" id="DDm-LI-Jee"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="88.605697151424295"/>
+        </scene>
+    </scenes>
+</document>

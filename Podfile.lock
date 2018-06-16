@@ -1,0 +1,16 @@
+PODS:
+  - PeerKit (4.0.0)
+
+DEPENDENCIES:
+  - PeerKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PeerKit
+
+SPEC CHECKSUMS:
+  PeerKit: 34e275ee3c74bbd1bf35ab5093644817897136b5
+
+PODFILE CHECKSUM: 69687f6380e2338d5b460cc8459fc9fa9430b4e7
+
+COCOAPODS: 1.5.3
